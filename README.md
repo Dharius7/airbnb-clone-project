@@ -3,10 +3,10 @@ Project Initialization
 Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
 
 # Team Roles
-a. Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.
-b. Database Administrator: Manages database design, indexing, and optimizations.
-c. DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
-d. QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
+1. Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.
+2. Database Administrator: Manages database design, indexing, and optimizations.
+3. DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
+4. QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
 
 # Technology Stack
 1. Django: A high-level Python web framework used for building the RESTful API.
@@ -51,12 +51,12 @@ PUT /reviews/{review_id}/ - Update a specific review
 DELETE /reviews/{review_id}/ - Delete a specific review
 
 # Feature Breakdown
-a. User Management: Implement a secure system for user registration, authentication, and profile management.
-b. Property Management: Develop features for property listing creation, updates, and retrieval.
-c. Booking System: Create a booking mechanism for users to reserve properties and manage booking details.
-d. Payment Processing: Integrate a payment system to handle transactions and record payment details.
-e. Review System: Allow users to leave reviews and ratings for properties.
-f. Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
+1. User Management: Implement a secure system for user registration, authentication, and profile management.
+2. Property Management: Develop features for property listing creation, updates, and retrieval.
+3. Booking System: Create a booking mechanism for users to reserve properties and manage booking details.
+4. Payment Processing: Integrate a payment system to handle transactions and record payment details.
+5. Review System: Allow users to leave reviews and ratings for properties.
+6. Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
 
 # API Security
 1. User Authentication
@@ -73,5 +73,5 @@ Features: Handle payment transactions related to bookings.
 
 # CI/CD Pipeline
 CI/CD: Continuous Integration and Continuous Deployment. It is a method of automating the process of building, testing, and deploying applications to ensure rapid and reliable software delivery.
-a. GitHub Actions – Automates workflows for testing and deploying code.
-b. Docker – Ensures consistent environments across development, testing, and production.
+1. GitHub Actions – Automates workflows for testing and deploying code.
+2. Docker – Ensures consistent environments across development, testing, and production.
