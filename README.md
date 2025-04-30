@@ -20,39 +20,56 @@ Airbnb Clone Project is a comprehensive, real-world application designed to simu
 
 # Database Design
 1. Users
-GET /users/ - List all users
+   
+  GET /users/ - List all users
 
-POST /users/ - Create a new user
+  POST /users/ - Create a new user
 
-GET /users/{user_id}/ - Retrieve a specific user
+  GET /users/{user_id}/ - Retrieve a specific user
 
-PUT /users/{user_id}/ - Update a specific user
+  PUT /users/{user_id}/ - Update a specific user
 
-DELETE /users/{user_id}/ - Delete a specific user
+  DELETE /users/{user_id}/ - Delete a specific user
 
 3. Properties
-GET /properties/ - List all properties
-POST /properties/ - Create a new property
-GET /properties/{property_id}/ - Retrieve a specific property
-PUT /properties/{property_id}/ - Update a specific property
-DELETE /properties/{property_id}/ - Delete a specific property
+   
+  GET /properties/ - List all properties
+  
+  POST /properties/ - Create a new property
+  
+  GET /properties/{property_id}/ - Retrieve a specific property
+  
+  PUT /properties/{property_id}/ - Update a specific property
+  
+  DELETE /properties/{property_id}/ - Delete a specific property
 
-4. Bookings
-GET /bookings/ - List all bookings
-POST /bookings/ - Create a new booking
-GET /bookings/{booking_id}/ - Retrieve a specific booking
-PUT /bookings/{booking_id}/ - Update a specific booking
-DELETE /bookings/{booking_id}/ - Delete a specific booking
+5. Bookings
+   
+  GET /bookings/ - List all bookings
+  
+  POST /bookings/ - Create a new booking
+  
+  GET /bookings/{booking_id}/ - Retrieve a specific booking
+  
+  PUT /bookings/{booking_id}/ - Update a specific booking
+  
+  DELETE /bookings/{booking_id}/ - Delete a specific booking
 
-5. Payments
+7. Payments
+   
 POST /payments/ - Process a payment
 
-6. Reviews
-GET /reviews/ - List all reviews
-POST /reviews/ - Create a new review
-GET /reviews/{review_id}/ - Retrieve a specific review
-PUT /reviews/{review_id}/ - Update a specific review
-DELETE /reviews/{review_id}/ - Delete a specific review
+9. Reviews
+    
+  GET /reviews/ - List all reviews
+  
+  POST /reviews/ - Create a new review
+  
+  GET /reviews/{review_id}/ - Retrieve a specific review
+  
+  PUT /reviews/{review_id}/ - Update a specific review
+  
+  DELETE /reviews/{review_id}/ - Delete a specific review
 
 # Feature Breakdown
 1. User Management: Implement a secure system for user registration, authentication, and profile management.
@@ -64,16 +81,16 @@ DELETE /reviews/{review_id}/ - Delete a specific review
 
 # API Security
 1. User Authentication
-Endpoints: /users/, /users/{user_id}/
-Features: Register new users, authenticate, and manage user profiles.
+  Endpoints: /users/, /users/{user_id}/
+  Features: Register new users, authenticate, and manage user profiles.
 
 3. Property Management
-Endpoints: /properties/, /properties/{property_id}/
-Features: Create, update, retrieve, and delete property listings.
+  Endpoints: /properties/, /properties/{property_id}/
+  Features: Create, update, retrieve, and delete property listings.
 
 5. Payment Processing
-Endpoints: /payments/
-Features: Handle payment transactions related to bookings.
+  Endpoints: /payments/
+  Features: Handle payment transactions related to bookings.
 
 # CI/CD Pipeline
 CI/CD: Continuous Integration and Continuous Deployment. It is a method of automating the process of building, testing, and deploying applications to ensure rapid and reliable software delivery.
