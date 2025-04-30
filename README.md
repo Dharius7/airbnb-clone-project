@@ -30,6 +30,7 @@ Airbnb Clone Project is a comprehensive, real-world application designed to simu
   PUT /users/{user_id}/ - Update a specific user
 
   DELETE /users/{user_id}/ - Delete a specific user
+  
 
 3. Properties
    
@@ -42,6 +43,7 @@ Airbnb Clone Project is a comprehensive, real-world application designed to simu
   PUT /properties/{property_id}/ - Update a specific property
   
   DELETE /properties/{property_id}/ - Delete a specific property
+  
 
 5. Bookings
    
@@ -54,10 +56,12 @@ Airbnb Clone Project is a comprehensive, real-world application designed to simu
   PUT /bookings/{booking_id}/ - Update a specific booking
   
   DELETE /bookings/{booking_id}/ - Delete a specific booking
+  
 
 7. Payments
    
 POST /payments/ - Process a payment
+
 
 9. Reviews
     
@@ -81,15 +85,23 @@ POST /payments/ - Process a payment
 
 # API Security
 1. User Authentication
+   
   Endpoints: /users/, /users/{user_id}/
+  
   Features: Register new users, authenticate, and manage user profiles.
+  
 
-3. Property Management
+2. Property Management
+   
   Endpoints: /properties/, /properties/{property_id}/
-  Features: Create, update, retrieve, and delete property listings.
+  
+  Features: Create, update, retrieve, and delete property listings
+  
 
-5. Payment Processing
+3. Payment Processing
+   
   Endpoints: /payments/
+  
   Features: Handle payment transactions related to bookings.
 
 # CI/CD Pipeline
